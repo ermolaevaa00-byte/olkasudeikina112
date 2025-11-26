@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ольга Глебова-Судейкина — contacts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Медиа-проект о жизни и образе Ольги Афанасьевны Глебовой-Судейкиной. Страница contacts.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <a href="index.html">Глебова-Судейкина</a>
+      <span class="logo-tagline">женщина Серебряного века</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Главная</a>
+      <a href="bio.html">Биография</a>
+      <a href="art.html">Творчество</a>
+      <a href="connections.html">Связи</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="timeline.html">Хронология</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="page narrow">
+  <section class="page-header-block">
+    <div class="container">
+      <p class="eyebrow">контакты</p>
+      <h1>Обратная связь</h1>
+      <p class="lede">
+        Форма для связи по вопросам исследовательского проекта, образовательного использования и сотрудничества.
+      </p>
+    </div>
+  </section>
+
+  <section class="container">
+    <form class="contact-form">
+      <div class="form-row">
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" placeholder="Ваше имя">
+      </div>
+      <div class="form-row">
+        <label for="email">Электронная почта</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com">
+      </div>
+      <div class="form-row">
+        <label for="topic">Тема</label>
+        <select id="topic" name="topic">
+          <option value="">Выберите тему</option>
+          <option>Вопрос по содержанию</option>
+          <option>Образовательное использование</option>
+          <option>Совместный проект</option>
+          <option>Другое</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="5" placeholder="Ваш текст"></textarea>
+      </div>
+      <button type="submit" class="btn primary full-width">Отправить</button>
+      <p class="form-note">
+        Форма демонстрационная и не отправляет данные на сервер. Используется в учебных целях.
+      </p>
+    </form>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Медиа-проект «Ольга Афанасьевна Глебова-Судейкина» · <span id="current-year"></span></p>
+    <p class="footer-meta">Сделано в учебных целях. Материалы используются только для иллюстрации эпохи.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
